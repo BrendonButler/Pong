@@ -8,6 +8,8 @@ import java.awt.*;
  */
 public class Pong extends Applet {
 
+
+
 	@Override
 	public void destroy() {
 
@@ -20,7 +22,7 @@ public class Pong extends Applet {
 
 	@Override
 	public void paint(Graphics graphics) {
-		graphics.drawString("Ping Pong!", 50, 50);
+
 	}
 
 	@Override
